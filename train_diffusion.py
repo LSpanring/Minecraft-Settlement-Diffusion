@@ -15,9 +15,7 @@ import numpy as np
 from tqdm import tqdm
 import wandb
 
-import sys
-sys.path.insert(0, str(Path(__file__).parent.parent))
-from lib.ml.numpy_dataset import NumpyPairDataset
+from numpy_dataset import NumpyPairDataset
 
 from model import ConditionalUNet3D
 from diffusion import GaussianDiffusion
