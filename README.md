@@ -3,7 +3,7 @@
 A conditional 3D denoising diffusion model for terrain-adaptive Minecraft settlement
 generation, trained under a single shared recipe across four datasets, in both binary
 (occupancy) and categorical (block2vec embedding) representations. It replaces a
-GAN-based generator (vox2vox) that was found to suffer from discriminator collapse and
+GAN-based generator (vox2vox) (https://github.com/avdstaaij/terrain-adaptive-pcgml-in-minecraft) that was found to suffer from discriminator collapse and
 an L1/discrete-embedding mismatch on structurally complex datasets — see
 `references.md` for the full account and every paper-attributed method used here.
 
