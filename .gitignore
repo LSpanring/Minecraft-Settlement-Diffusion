@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# But allow directories to be traversed
+!*/
+
+# Allow .py files
+!*.py
+
+# Allow specific files
+!.gitignore
+!requirements.txt
+!README.md
+!references.md
